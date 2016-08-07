@@ -5,7 +5,10 @@
             :url "https://github.com/Lepetere/foursquare-popular-venues-search/blob/master/LICENSE"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clj-http "3.1.0"]
-                 [cheshire "5.6.3"]]
+                 [cheshire "5.6.3"]
+                 [ring/ring-core "1.5.0"]
+                 [ring/ring-jetty-adapter "1.5.0"]
+                 [ring/ring-json "0.4.0"]]
   :main ^:skip-aot foursquare-popular-venues-search.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
