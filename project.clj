@@ -8,7 +8,7 @@
                  [cheshire "5.6.3"]
                  [ring/ring-core "1.5.0"]
                  [ring/ring-jetty-adapter "1.5.0"]
-                 [ring/ring-json "0.4.0"]]
+                 [hiccup "1.0.5"]]
   :main ^:skip-aot foursquare-popular-venues-search.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
